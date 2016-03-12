@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
   renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
   game.renderer = renderer;
 
-
+/*
   tankSurface = IMG_Load("tank.png");
   if(tankSurface == NULL)
   {
@@ -135,7 +135,7 @@ int main(int argc, char *argv[])
 
   game.tankSurface = SDL_CreateTextureFromSurface(game.renderer, tankSurface);
   SDL_FreeSurface(tankSurface);
-
+*/
   // The window is open: enter program loop (see SDL_PollEvent)
   int done = 0;
 
